@@ -11,6 +11,23 @@ body {
   flex-direction: column;
 }
 
+.outline-button {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.button-white {
+  border: 1px solid white;
+  color: white;
+}
+.button-lilac {
+  border: 1px solid #8980c2;
+  color: #8980c2;
+}
+
 /* Header component */
 header {
   display: flex;
@@ -70,4 +87,41 @@ nav a {
 #hero img {
   width: 66%;
   border-radius: 50%;
+}
+
+/* Main content */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bree Serif", "Times New Roman", Times, serif;
+}
+
+main h2 {
+  margin: 1rem 0 0;
+}
+
+main article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+main article img {
+  width: 75%;
+  border-radius: 50%;
+  border: 4px solid #8980c2;
+}
+
+main article h3 {
+  margin: 1rem 0;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+main article p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
 }
